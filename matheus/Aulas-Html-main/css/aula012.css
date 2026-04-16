@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  background-color: rgb(240, 238, 238);
+  align-items: center;
+/* Configurações do menu hamburguer */
+  & .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    transition: .3s;
+    display: none;
+    & div {
+      width: 56px;
+      height: 7px;
+      background-color: rgb(0, 0, 0);
+      border-radius: 100px;
+    }
+  }
+/* Animação para quando passa o mouse no menu hamburguer*/
+  & .menu:hover {
+     background-color: #adacac;
+  }
+/* Aumentando o tamanho da logo */
+  & .logo {
+    font-size: 36px;
+  }    
+/* Alterando a cor dos links */
+  & a {
+    color: black;
+  }
+/* Colocando os links de navegação lado a lado */
+  & nav {
+    display: flex;
+    gap: 12px;
+  }
+}
+/* Adaptando para 710 largura */
+@media screen and (max-width: 710px) {
+  header {
+    padding: 20px;
+  }
+  main {
+    & #home {
+      flex-direction: column;
+    }
+  }
+}
+/* Adaptando para 510 largura */
+@media screen and (max-width: 510px) {
+  header {
+    & .menu {
+      display: flex;
+    }
+    
+    & nav {
+      display: none;
+    }
+
+  
+  }
+  main {
+    & #home {
+      flex-direction: column;
+    }
+  }
+}
+
+main {
+  & #home{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+
+    & .lado-esquerdo{
+      display: flex;
+      flex-direction: column;
+      gap: 58px;
+      width: 464px;
+    }
+
+    & img {
+      width: 400px;
+    }
+  }
+}
+

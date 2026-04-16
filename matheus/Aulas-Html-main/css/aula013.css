@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.bg {
+    background-image: url(../img/bolo-brigadeiro.jpg);
+    height: 100vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-attachment: fixed;
+    
+}
+
+.banner2{
+    background-image: url(../img/oleg-laptev-QRKJwE6yfJo-unsplash.jpg)
+}
+
+.banner3 {
+    background-image: url(../img/viktor-forgacs-click-QDMEADvb4PE-unsplash.jpg);
+}
+
+.banner4 {
+    background-image: url(../img/rainbow.jpg);
+}

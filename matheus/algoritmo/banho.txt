@@ -1,0 +1,28 @@
+Tirar a roupa
+Colocar a roupa no cesto de roupas
+Pegar uma toalha
+Entrar no banheiro
+estender a toalha 
+Fechar a porta
+Ligar o chuveiro
+Entrar em baixo do chuveiro
+Pegar sabonete na saboneteira
+Passar sabonete no corpo
+Colocar o sabonete de volta na saboneteira
+Enxaguar o corpo
+Pegar o pote shampoo
+Colocar o shampoo na mão
+Passar o shampoo no cabelo
+Esfregar o shampoo
+Enxaguar o shampoo
+Voltar o pote de shampoo pra onde ele estava
+Desligar o chuveiro
+Pegar a toalha
+Usar a toalha pra se secar
+Vestir a toalha
+Desligar a luz do banheiro
+Sair do banheiro
+
+
+
+

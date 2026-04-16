@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    background-color: rgb(28, 14, 156);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+h1:hover {
+    animation: girar 0.5s linear infinite;
+}
+
+@keyframes girar {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+#texto-verde {
+    background-color: green;
+}
+
+h2 {
+    text-shadow: 10px 10px 5px black;
+}
+
+p {
+    color: rgb(252, 0, 218);
+}
+
+.p002 {
+    color: blue;
+}

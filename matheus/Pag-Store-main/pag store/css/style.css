@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Lexend", sans-serif;
+    align-items: center;
+}
+
+.header-section {
+    height: 100vh;
+    background-image: url(../img/banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & header {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 92px;
+        align-items: center;
+
+        & nav {
+            display: flex;
+            gap: 40px;
+
+            & a {
+                color: #fefe;
+                font-size: 18px;
+            }
+        }
+        .btns {
+            display: flex;
+            gap: 16px;
+
+            & a {
+                padding: 11px 16px;
+                border-radius: 8px;
+                background-color: blue;
+                color: #ffffff;
+                }
+
+                & a:last-child {
+                    background-color: transparent;
+                    border: 1px solid #ffffff;
+                }
+            }
+        }
+        & #hero {
+            margin-top: 114px;
+            margin-left: 95px;
+            color: #ffffff;
+
+
+            & h1 {
+                font-size: 48px;
+                margin-bottom: 26px;
+            }
+
+            & p {
+                font-size: 24px;
+                width: 417px;
+            }
+
+            & a {
+                display: inline-block;
+                background-color: #3B44F6;
+                padding: 16px 32px;
+                border-radius: 8px;
+                color: #fff;
+                margin-top: 64px;
+            }
+        }
+    }
+
+main {
+    & #why-bigode-store {
+        margin: auto;
+        max-width: 915px;
+        padding: 70px 0px;
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+        & .title {
+            font-size: 36x;
+            color: #1b1b1b;
+            
+
+            & p {
+                font-size: 18px;
+                color: #323232;
+                width: 473px;
+            }
+
+            & h2 {
+                margin-bottom: 16px;
+                font-size: 36px;
+                color: #181818;
+            }
+        }
+        & .cards {
+            display: flex;
+            justify-content: space-between;
+            
+            & .card {
+                width: 250px;
+            }
+        }
+    }
+
+
+}
